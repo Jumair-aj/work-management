@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import "tailwindcss";
+
+body {
+  font-size: 1rem;
+  line-height: 1.75;
+  color: #333;
+  font-family: "Mulish", sans-serif; /* Corrected here */
+}
+
+.mulish-regular {
+  font-family: "Mulish", sans-serif;
+  font-weight: 400; /* Normal */
+}
+
+.mulish-medium {
+  font-family: "Mulish", sans-serif;
+  font-weight: 500; /* Medium */
+}
+
+.mulish-semibold {
+  font-family: "Mulish", sans-serif;
+  font-weight: 600; /* Semi-bold */
+}
+
+.mulish-bold {
+  font-family: "Mulish", sans-serif;
+  font-weight: 700; /* Bold */
+}
+
+.mulish-extrabold {
+  font-family: "Mulish", sans-serif;
+  font-weight: 800; /* Extra-bold */
+}
+
+.mulish-black {
+  font-family: "Mulish", sans-serif;
+  font-weight: 900; /* Black */
+}
+
+.mulish-italic {
+  font-family: "Mulish", sans-serif;
+  font-style: italic;
+  font-weight: 400; /* Normal italic */
+}
