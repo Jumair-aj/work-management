@@ -2,7 +2,7 @@ import React from 'react'
 import { HiOutlineMagnifyingGlass } from "react-icons/hi2";
 
 
-export default function SearchAndFIlter() {
+export default function SearchAndFIlter({setOpenAddModal}) {
     return (
         <div className='p-5 flex justify-between items-center text-sm'>
             <div className="flex gap-2 items-center text-[#00000099] ">
@@ -26,7 +26,7 @@ export default function SearchAndFIlter() {
                     <HiOutlineMagnifyingGlass />
                     <input type="text" placeholder="Search" className="border-none outline-none text-[#000000D1]" />
                 </div>
-                <button className='bg-[#7B1984] text-white py-3 px-8 rounded-full text-md  font-medium'>ADD TASK</button>
+                <button type='button' onClick={() => setOpenAddModal(true)} className='bg-[#7B1984] text-white py-3 px-8 rounded-full text-md cursor-pointer hover:bg-[#7B1984]/75 transistion-all duration-300 font-medium'>ADD TASK</button>
             </div>
         </div>
     )

@@ -5,41 +5,73 @@ body {
   font-size: 1rem;
   line-height: 1.75;
   color: #333;
-  font-family: "Mulish", sans-serif; /* Corrected here */
-} 
- 
+  font-family: "Mulish", sans-serif;
+  /* Corrected here */
+}
+
 .mulish-regular {
   font-family: "Mulish", sans-serif;
-  font-weight: 400; /* Normal */
+  font-weight: 400;
+  /* Normal */
 }
 
 .mulish-medium {
   font-family: "Mulish", sans-serif;
-  font-weight: 500; /* Medium */
+  font-weight: 500;
+  /* Medium */
 }
 
 .mulish-semibold {
   font-family: "Mulish", sans-serif;
-  font-weight: 600; /* Semi-bold */
+  font-weight: 600;
+  /* Semi-bold */
 }
 
 .mulish-bold {
   font-family: "Mulish", sans-serif;
-  font-weight: 700; /* Bold */
+  font-weight: 700;
+  /* Bold */
 }
 
 .mulish-extrabold {
   font-family: "Mulish", sans-serif;
-  font-weight: 800; /* Extra-bold */
+  font-weight: 800;
+  /* Extra-bold */
 }
 
 .mulish-black {
   font-family: "Mulish", sans-serif;
-  font-weight: 900; /* Black */
+  font-weight: 900;
+  /* Black */
 }
 
 .mulish-italic {
   font-family: "Mulish", sans-serif;
   font-style: italic;
-  font-weight: 400; /* Normal italic */
+  font-weight: 400;
+  /* Normal italic */
+}
+
+.Acumin-Regular {
+  font-family: "acumin-pro", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.Acumin-Italic {
+  font-family: "acumin-pro", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+button {
+  cursor: pointer;
+}
+
+
+ol{
+  list-style: inside decimal !important;
+}
+ul{
+  list-style: inside disc !important;
 }
